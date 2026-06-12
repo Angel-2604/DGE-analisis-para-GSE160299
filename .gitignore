@@ -1,0 +1,29 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data and workspaces
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Option files for RStudio
+.Rproj.user/
+
+# Output directories created by the bioinformatics pipeline
+# Se ignoran para no sobrecargar el repositorio de GitHub con archivos binarios masivos o PDFs
+results/
+figures/
+
+# Temporary or data files downloaded during execution
+data/
+*.RData
+*.rds
+*.gz
+*.txt
+
+# OS-generated files
+.DS_Store
+Thumbs.db
